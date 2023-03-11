@@ -1,0 +1,20 @@
+{
+    "name": "usuario/php-framework",
+    "description": "Proyecto de ejemplo framework PHP",
+    "authors": [
+        {
+            "name": "Christian Ojeda",
+            "email": "christian.cnod@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+
+    }
+}
